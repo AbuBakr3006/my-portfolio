@@ -296,6 +296,6 @@ hr{
     }
 
     .modal__menu{
-        height: 100vh;
+        height: 100%;
     }
 }
