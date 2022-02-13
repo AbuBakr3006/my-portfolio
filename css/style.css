@@ -283,5 +283,7 @@ hr{
         padding: 40px 0;
     }
 
-    
+    .header__maenu{
+        width: 150%;
+    }
 }
