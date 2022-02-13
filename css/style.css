@@ -56,6 +56,10 @@ body {
         display: none;
     }
 
+    .container {
+        width: 960px;
+    }
+
 
     .hero__inner {
         margin-left: -200px;
@@ -257,14 +261,22 @@ hr {
         flex-direction: column;
     }
 
+    .container {
+        width: 720px;
+    }
+
     .modal__menu {
         height: 100vh;
     }
 
-    .aboutme__menu{
+    .aboutme__menu {
         width: 720px;
         margin: 0 auto;
         flex-direction: column;
+    }
+
+    .portfolioo__main {
+        width: 720px;
     }
 
 }
@@ -288,9 +300,14 @@ hr {
 
 @media screen and (max-width: 572px) {
     .container {
-        width: 433px;
+        width: 100%;
     }
 
+    .maket{
+        width: 100%;
+    }
+    
+    
     .hero__inner {
         width: 403px;
         padding: 40px 0;
@@ -304,7 +321,7 @@ hr {
         height: 100vh;
     }
 
-    .modal__menu{
+    .modal__menu {
         position: fixed;
     }
 }
@@ -312,57 +329,58 @@ hr {
 
 /* ABOUT ME  */
 
-.aboutme__menu{
+.aboutme__menu {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     color: var(--bg--color);
 }
 
-.tt{
+.tt {
     margin-top: 70px;
     margin-left: 100px;
 }
 
-.aboutt{
+.aboutt {
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 40px;
 }
 
-.freelance{
+.freelance {
     width: 434px;
     font-size: 28px;
     margin-bottom: 25px;
 }
 
-.develop{
+.develop {
     width: 434px;
     font-size: 16px;
     margin-bottom: 20px;
 }
 
-.spans{
+.spans {
     display: flex;
     align-items: center;
     margin-bottom: 35px;
     margin-right: 30px;
 }
-.spann{
+
+.spann {
     font-size: 50px;
 }
 
-.projects{
+.projects {
     width: 87px;
     margin-left: 10px;
 }
 
-.box{
+.box {
     margin-left: 200px;
 }
 
-.contactme{
+.contactme {
     margin-right: 50px;
     text-decoration: none;
     color: #fff;
@@ -372,13 +390,13 @@ hr {
     transition: all 0.4s ease;
 }
 
-.contactme:hover{
+.contactme:hover {
     background-color: #fff;
     color: #30BF71;
     box-shadow: 4px 4px #30BF71;
 }
 
-.menuu{
+.menuu {
     display: flex;
     align-items: center;
 }
@@ -391,7 +409,7 @@ hr {
 
 
 
-.portfolioo__main{
+.portfolioo__main {
     width: 1070px;
     margin-left: 200px;
     margin-top: 100px;
@@ -400,32 +418,32 @@ hr {
     padding: 10px 20px;
 }
 
-.boxss{
+.boxss {
     width: 333px;
     height: 333px;
     /* border: 1px solid #000; */
 }
 
-.imgg{
+.imgg {
     width: 331px;
     padding: 10px 10px;
     /* height: 455px; */
 }
 
-.boxss:nth-child(1){
+.boxss:nth-child(1) {
     width: 333px;
     height: 455px;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-.boxss:nth-child(3){
+.boxss:nth-child(3) {
     width: 333px;
     height: 580px;
     /* margin-top: -140px; */
 }
 
-.boxss:nth-child(4){
+.boxss:nth-child(4) {
     width: 333px;
     height: 333px;
     margin-top: -130px;
@@ -433,7 +451,7 @@ hr {
     grid-column-end: 1;
 }
 
-.boxss:nth-child(5){
+.boxss:nth-child(5) {
     width: 333px;
     height: 580px;
     grid-column-start: 2;
@@ -441,28 +459,92 @@ hr {
     margin-top: -250px;
 }
 
-.boxss:nth-child(6){
+.boxss:nth-child(6) {
     width: 333px;
     height: 455px;
     margin-top: -20px;
 }
 
-.boxss:nth-child(7){
+.boxss:nth-child(7) {
     width: 333px;
     height: 380px;
     margin-top: -230px;
 }
 
-.boxss:nth-child(8){
+.boxss:nth-child(8) {
     width: 333px;
     height: 330px;
     margin-top: -115px;
 }
 
-.boxss:nth-child(9){
+.boxss:nth-child(9) {
     width: 333px;
     height: 330px;
     margin-top: 4px;
 }
 
 /* PORTFOLIO  */
+
+
+/* MAKETS */
+
+.makets__box {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 230px;
+}
+
+.maket {
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.maket__link {
+    text-decoration: none;
+}
+
+
+.maket1 {
+    width: 505px;
+    height: 336px;
+    color: #000;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 40px;
+    font-family: 'Festive', cursive;
+    border-radius: 10px;
+    background-color: #30BF71;
+}
+
+.maket__box {
+    width: 455px;
+    height: 175px;
+    background-color: #000;
+    margin: -80px 0 0 50px;
+    border-radius: 10px;
+    color: var(--bg--color);
+    font-family: 'Rubik', sans-serif;
+    padding: 25px;
+}
+
+.data {
+    margin-bottom: 10px;
+}
+
+.five {
+    width: 356px;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 770px) {
+    .makets__box {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 540px;
+    }
+}
+
+
+/* MAKETS */
