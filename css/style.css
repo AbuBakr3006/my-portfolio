@@ -43,6 +43,7 @@ body {
     /* margin-left: 1000px; */
 }
 
+
 .bx-menu{
     font-size: 30px;
 }
@@ -51,7 +52,7 @@ body {
 
 
 @media screen and (max-width: 1200px){
-    .modal__menu{
+    .md{
         display: none;
     }
 
@@ -66,10 +67,17 @@ body {
     }
 }
 
-.abubakr
+.abubakr{
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
 
 
 .modal__menu{
+    /* display: none; */
     position: fixed;
 }
 
@@ -167,6 +175,11 @@ hr{
 .show{
     display: block;
 }
+
+.show__none{
+    display: none;
+}
+
 
 /* MODAL  */
 
