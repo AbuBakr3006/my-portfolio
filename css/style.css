@@ -259,6 +259,10 @@ hr{
         flex-direction: column;
         /* margin-left: -100px; */
     }
+
+    .modal__menu{
+        height: 100vh;
+    }
 }
 
 @media screen and (max-width:700px) {
@@ -271,6 +275,10 @@ hr{
 
     .container{
         width: 540px;
+    }
+
+    .modal__menu{
+        height: 100vh;
     }
 }
 
@@ -285,5 +293,9 @@ hr{
 
     .header__maenu{
         width: 200%;
+    }
+
+    .modal__menu{
+        height: 100vh;
     }
 }
