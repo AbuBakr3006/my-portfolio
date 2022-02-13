@@ -384,7 +384,85 @@ hr {
 }
 
 
-
-
-
 /* ABOUT ME  */
+
+
+/* PORTOFLIO  */
+
+
+
+.portfolioo__main{
+    width: 1070px;
+    margin-left: 200px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 333px 333px 333px;
+    padding: 10px 20px;
+}
+
+.boxss{
+    width: 333px;
+    height: 333px;
+    /* border: 1px solid #000; */
+}
+
+.imgg{
+    width: 331px;
+    padding: 10px 10px;
+    /* height: 455px; */
+}
+
+.boxss:nth-child(1){
+    width: 333px;
+    height: 455px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.boxss:nth-child(3){
+    width: 333px;
+    height: 580px;
+    /* margin-top: -140px; */
+}
+
+.boxss:nth-child(4){
+    width: 333px;
+    height: 333px;
+    margin-top: -130px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.boxss:nth-child(5){
+    width: 333px;
+    height: 580px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: -250px;
+}
+
+.boxss:nth-child(6){
+    width: 333px;
+    height: 455px;
+    margin-top: -20px;
+}
+
+.boxss:nth-child(7){
+    width: 333px;
+    height: 380px;
+    margin-top: -230px;
+}
+
+.boxss:nth-child(8){
+    width: 333px;
+    height: 330px;
+    margin-top: -115px;
+}
+
+.boxss:nth-child(9){
+    width: 333px;
+    height: 330px;
+    margin-top: 4px;
+}
+
+/* PORTFOLIO  */
