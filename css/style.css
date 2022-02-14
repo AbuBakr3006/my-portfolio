@@ -20,7 +20,7 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 150px;
 }
 
 #header {
@@ -244,16 +244,32 @@ hr {
 
 /* ABOUT ME  */
 
-.aboutme__menu{
-    width: 1140px;
-}
 
 .aboutme__menu {
+    width: 1140px;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
     color: var(--bg--color);
 }
+
+.img1{
+    width: 215px;
+    height: 215px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.img2{
+    margin-right: 10px;
+}
+
+.img3{
+    margin-top: 50px;
+}
+
+
+
 
 .tt {
     margin-top: 70px;
@@ -295,9 +311,6 @@ hr {
     margin-left: 10px;
 }
 
-.aboutlink{
-    width: 1140px;
-}
 
 .contactme {
     width: 300px;
@@ -321,6 +334,20 @@ hr {
     align-items: center;
 }
 
+.box{
+    display: grid;
+    grid-template-columns: 230px 230px;
+}
+
+.about__boxx{
+    width: 230px;
+    height: 36px;
+    border: 1px solid #fff;
+}
+
+.aboutt{
+    display: flex;
+}
 
 /* ABOUT ME  */
 
@@ -641,3 +668,212 @@ hr {
 
 /* INPUT  */
 
+
+@media screen and (max-width: 1200px) {
+    .modal__menu{
+        display: none;
+    }
+
+    .container{
+        width: 960px;
+        margin: 0 auto;
+        padding: 0; 
+    }
+
+    .hero__menu{
+        width: 960px;
+    }
+
+    .aboutme__menu,
+    .makets__bx,
+    .inputs__menu,
+    .iframe{
+        width: 100%;
+    }
+
+    .portfolioo__main{
+        width: 100%;
+        /* margin-left: -50px; */
+    }
+
+    .makets__box{
+        width: 100%;
+    }
+
+    .maket{
+        margin-right: 0;
+    }
+
+    #header{
+        display: block;
+    }
+
+    .img2{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+
+    .hero__menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hero__inner{
+        margin-bottom: 50px;
+    }
+
+    .aboutme__menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .portfolioo__main{
+        width: 100%;
+        margin-left: -125px;
+    }
+
+    .makets__box{
+        width: 100%;
+        margin-left: -130px;
+    }
+
+    .inputs__menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .inputs__main{
+        width: 690px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .container{
+        width: 720px;
+    }
+
+    .hero__menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hero__inner{
+        margin-bottom: 50px;
+    }
+
+    .aboutme__menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .aboutt{
+        margin-left: 100px;
+    }
+
+    #portfolioo{
+        display: none;
+    }
+
+    .portfolioo__main{
+        width: 720px;
+        margin-left: -125px;
+    }
+
+
+    .makets__box{
+        width: 720px;
+        margin-left: -130px;
+    }
+
+    .inputs__menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .inputs__main{
+        width: 690px;
+    }
+
+    .maket{
+        width: 355px;
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container{
+        width: 575px;
+    }
+
+    .hero__menu{
+        width: 545px;
+        flex-direction: column;
+    }
+
+    .hero__inner{
+        width: 500px;
+    }
+
+    .hero__foto{
+        width: 500px;
+    }
+
+    .hero__inner{
+        margin-bottom: 50px;
+    }
+
+    .aboutme__menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .aboutt{
+        margin-left: 100px;
+    }
+
+    #portfolioo{
+        display: none;
+    }
+
+    .portfolioo__main{
+        width: 720px;
+        margin-left: -125px;
+    }
+
+    .makets__box{
+        width: 545px;
+        flex-direction: column;
+        /* margin-left: 20px; */
+    }
+
+    .inputs__menu{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .input__bx{
+        width: 545px;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    #name,
+    #email,
+    #subject,
+    #sms{
+        width: 545px;
+    }
+
+    .iframe{
+        width: 545px;
+    }
+
+    .more__link{
+        display: none;
+    }
+}
